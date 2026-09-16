@@ -1,0 +1,140 @@
+## EXACT ARABIC TEXT EXTRACTION, READING & TRANSLATION
+
+I have uploaded an image containing Arabic/Islamic text.
+
+Your task is to **carefully inspect the uploaded image and reproduce the Arabic text exactly as it appears in the image**, followed by its exact reading/transliteration and English translation.
+
+### 1. EXACT ARABIC EXTRACTION — HIGHEST PRIORITY
+
+Read the uploaded image character-by-character.
+
+Write the Arabic text **exactly as it appears in the image**.
+
+Preserve ALL visible Arabic details, including:
+
+* Every Arabic letter
+* Exact spelling
+* Letter forms
+* Zabar (َ)
+* Zair (ِ)
+* Pesh/Damma (ُ)
+* Fatha, Kasra and Damma
+* Shadda (ّ)
+* Sukoon/Jazm (ْ)
+* Madd (ٓ)
+* Tanween (ً ٍ ٌ)
+* Hamza (ء)
+* Wasla (ٱ)
+* Any other visible diacritical marks
+* Word spacing
+* Repeated letters
+* Punctuation or symbols, if present
+
+**DO NOT remove the harakat/diacritics.**
+
+**DO NOT simplify the Arabic.**
+
+**DO NOT rewrite it into modern Arabic.**
+
+**DO NOT correct the Arabic based on what you think it should say.**
+
+**DO NOT replace the text with a commonly known version from memory.**
+
+The uploaded image is the ONLY source for the exact Arabic wording.
+
+If a letter or diacritic is unclear, inspect the image carefully again before making a decision.
+
+### 2. EXACT ARABIC
+
+Present the extracted Arabic first:
+
+**Arabic:**
+
+[EXACT ARABIC TEXT FROM IMAGE]
+
+The Arabic shown here must contain all clearly visible Zabar, Zair, Pesh, Shadda, Sukoon, Madd and other harakat.
+
+### 3. EXACT READING / TRANSLITERATION
+
+After the Arabic, provide its reading in **Latin/English letters**.
+
+Try to represent the Arabic pronunciation as accurately as possible.
+
+Preserve important pronunciation details caused by:
+
+* Shadda
+* Long vowels
+* Sukoon
+* Hamza
+* Madd
+* Connected pronunciation where relevant
+
+Format:
+
+**Exact reading:**
+
+[Romanized pronunciation]
+
+Do not invent pronunciation that is not supported by the extracted Arabic.
+
+### 4. ENGLISH TRANSLATION
+
+Give a **direct/literal English translation first**, staying as close as possible to the Arabic meaning.
+
+Format:
+
+### English translation
+
+**“[Direct English translation]”**
+
+### 5. MORE NATURAL ENGLISH TRANSLATION
+
+Then provide a second version that expresses the same meaning in **natural, fluent English**.
+
+Do not change the meaning. Do not add information that is not present in the Arabic.
+
+Format:
+
+**Or more naturally:**
+
+**“[Natural English translation]”**
+
+### 6. IMPORTANT ACCURACY RULE
+
+There are THREE separate things:
+
+1. **Exact Arabic from the image**
+2. **Exact reading/pronunciation**
+3. **English meaning**
+
+Do not mix them together.
+
+The Arabic extraction is the highest priority.
+
+If the image contains an unusual spelling, unusual harakat, grammatical form, or wording, **preserve what is actually visible rather than silently correcting it.**
+
+### 7. FINAL RESPONSE FORMAT
+
+Use exactly this structure:
+
+**Arabic:**
+
+[EXACT ARABIC TEXT WITH ALL VISIBLE HARAKAT]
+
+**Exact reading:**
+
+[ACCURATE ROMANIZED READING]
+
+### English translation
+
+**“[DIRECT/LITERAL TRANSLATION]”**
+
+**Or more naturally:**
+
+**“[NATURAL ENGLISH TRANSLATION]”**
+
+### Final verification
+
+Before answering, compare your extracted Arabic against the uploaded image **one more time character-by-character**, including every visible diacritic.
+
+Do not provide commentary about the image unless necessary.
